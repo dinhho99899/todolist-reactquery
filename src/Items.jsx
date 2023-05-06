@@ -1,5 +1,5 @@
 import SingleItem from './SingleItem'
-import { useFetchTasks } from './customhooks'
+import { useFetchTasks } from './reactquerycustomhooks'
 const Items = () => {
   const { isLoading, isError, data } = useFetchTasks()
   if (isLoading) return <p style={{ marginTop: '1rem' }}>Loading...</p>

@@ -1,4 +1,4 @@
-import { useEditTask, useDeleteTask } from './customhooks'
+import { useEditTask, useDeleteTask } from './reactquerycustomhooks'
 const SingleItem = ({ item }) => {
   const { editTask } = useEditTask()
   const { deleteTask } = useDeleteTask()
